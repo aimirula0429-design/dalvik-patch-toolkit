@@ -1,0 +1,65 @@
+# 二进制与安装包 —— 严禁提交
+*.apk
+*.apks
+*.aab
+*.xapk
+*.jar
+*.dex
+*.odex
+*.vdex
+*.oat
+*.so
+*.arsc
+
+# 反编译产物
+smali/
+smali_classes*/
+jadx-out/
+apktool-out/
+decompile/
+build/
+dist/
+
+# 签名相关 —— 绝对不要提交
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+*.pk8
+*.x509
+
+# 抓包与调试产物
+*.pcap
+*.har
+*.log
+crash*/
+capture*/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 本地测试
+test_*/
+tmp/
+temp/
+output/
+out_*/
+patch/
+orig_dex/
+extract/
+installed_check.apk
